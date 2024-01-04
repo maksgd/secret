@@ -46,6 +46,18 @@ p {
   padding: 0 15px;
 }
 
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  background: #31344e url("img/space.png") center no-repeat;
+  background-size: cover;
+}
+
 /* HEADER 
 =======================*/
 .header {
@@ -82,21 +94,13 @@ p {
 /* INTRO 
 ====================*/
 
-.bg {
-  background-color: #00000041;
-  min-height: 100vh;
-}
-
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center; /*Контент выровнить по центру по оси Y*/
   min-height: 100vh;
   padding-top: 100px;
-
-  background: #31344e url("img/space.png") center no-repeat fixed;
-  background-size: cover; /*Для 
-    пропорционального распределения размера изображения*/
+  z-index: 2;
 }
 
 .intro__inner {
@@ -341,10 +345,10 @@ p {
 }
 
 .team__item {
+  z-index: 2;
   width: 25%; /*Ширина блоков во flex*/
-  padding: 0 15px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #0000002b;
+  padding: 30 15px;
+  background-color: #0000006a;
 }
 
 .team__photo {
@@ -362,7 +366,7 @@ p {
 .team__name {
   margin-bottom: 8px;
   font-size: 22px;
-  color: #2d3033;
+  color: #c9c9c9;
 
   transform: scale(0);
   transition: all 0.8s ease 0s;
@@ -519,17 +523,14 @@ p {
 ==================== */
 
 .download {
+  position: relative;
   height: 700px;
-
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
 
   text-align: center;
-
-  background: #31344e url("img/space.png") center no-repeat fixed;
-  background-size: cover; /*Для 
-    пропорционального распределения размера изображения*/
 }
 
 .download__title {
@@ -651,6 +652,8 @@ p {
 ============================*/
 
 .footer {
+  position: relative;
+  z-index: 2;
   background-color: #3a3e64;
 }
 
@@ -854,7 +857,8 @@ p {
   }
 
   .team__item {
-    width: 80%;
+    padding: 20px;
+    width: 100%;
     text-align: center;
   }
 
