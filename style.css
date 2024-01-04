@@ -94,7 +94,7 @@ p {
   min-height: 100vh;
   padding-top: 100px;
 
-  background: #31344e url("img/space.png") center no-repeat;
+  background: #31344e url("img/space.png") center no-repeat fixed;
   background-size: cover; /*Для 
     пропорционального распределения размера изображения*/
 }
@@ -527,7 +527,7 @@ p {
 
   text-align: center;
 
-  background: #31344e url("img/space.png") center no-repeat fixed; /*fixed, чтобы создать паралакс эффект*/
+  background: #31344e url("img/space.png") center no-repeat fixed;
   background-size: cover; /*Для 
     пропорционального распределения размера изображения*/
 }
@@ -566,7 +566,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  border: none;
   overflow: hidden;
 
   position: relative;
