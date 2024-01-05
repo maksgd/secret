@@ -56,8 +56,9 @@ p {
   height: 100vh;
 
   background: url("img/space\ —\ копия.jpeg") no-repeat;
-  background-position: 50% 50%;
+  /* background-position: 50% 50%; */
   background-size: cover;
+  /* background-attachment: fixed; */
 }
 
 /* HEADER 
@@ -355,7 +356,7 @@ p {
   z-index: 2;
   width: 25%; /*Ширина блоков во flex*/
   padding: 30 15px;
-  background-color: #000000ad;
+  background-color: #0000007c;
 }
 
 .team__photo {
