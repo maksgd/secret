@@ -55,7 +55,6 @@ p {
 
   background-image: url("img/space\ —\ копия.jpeg");
   background-size: cover;
-  background-attachment: fixed;
 }
 
 /* HEADER 
@@ -113,11 +112,6 @@ p {
 .intro__title {
   margin: 0 0 30px;
 
-  -webkit-text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(208, 208, 255),
-    0 0 0.2em rgb(208, 208, 255);
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(208, 208, 255),
-    0 0 0.2em rgb(208, 208, 255);
-
   font-family: "Marck Script", cursive;
   font-size: 65px;
   line-height: 1.1; /*Расстояние между текстом по пропорции относительно font-size*/
@@ -137,6 +131,11 @@ p {
 
 .intro_subtitle {
   margin-bottom: 60px; /*Отступ снизу*/
+
+  -webkit-text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(208, 208, 255),
+    0 0 0.2em rgb(208, 208, 255);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(208, 208, 255),
+    0 0 0.2em rgb(208, 208, 255);
 
   font-size: 22px;
   color: #fff;
