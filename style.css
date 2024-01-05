@@ -10,6 +10,11 @@ body {
   height: 100%;
 
   background-color: black;
+
+  background: url(img/space\ —\ копия.jpeg) no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .line {
