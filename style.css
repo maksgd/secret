@@ -341,10 +341,6 @@ p {
 /* TEAM 
 =====================*/
 
-.team {
-  /* padding: 100px 0 70px; */
-}
-
 .team__inner {
   display: flex;
   justify-content: center;
@@ -856,7 +852,7 @@ p {
   }
 
   .intro_subtitle {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .features {
@@ -882,10 +878,6 @@ p {
     padding: 20px;
     width: 100%;
     text-align: center;
-  }
-
-  .team {
-    /* padding: 60px 0 30px; */
   }
 
   .reviews__text {
